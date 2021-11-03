@@ -29,7 +29,6 @@ function newsFeed() {
     `);
   }
 
-  console.log(newsFeed.length + '|' + (store.currentPage * 10))
   newsList.push('</ul>');
   newsList.push(`
     <div>
